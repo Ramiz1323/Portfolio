@@ -10,11 +10,11 @@ export default function AboutPage() {
   const certificates = [
     {
       id: 1,
-      title: "Web Development Bootcamp",
-      issuer: "Udemy",
-      date: "January 2023",
-      image: "/placeholder.svg?height=400&width=600&text=Certificate+1",
-      skills: ["HTML", "CSS", "JavaScript", "React"],
+      title: "Web Development Internship",
+      issuer: "GAO Tek Inc.",
+      date: "April 2025 - July 2025",
+      image: "/images/internship.jpg?height=40&width=60",
+      skills: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress", "Web Design"],
     },
     {
       id: 2,

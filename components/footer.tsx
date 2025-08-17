@@ -16,7 +16,7 @@ export default function Footer() {
 
           <div className="flex space-x-4 mb-4 md:mb-0">
             <Link
-              href="https://github.com"
+              href="https://github.com/Ramiz1323"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -24,7 +24,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </Link>
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sk-ramiz-raza"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -32,7 +32,7 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </Link>
             <Link
-              href="https://twitter.com"
+              href="https://x.com/ramiz_dezi"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -40,7 +40,7 @@ export default function Footer() {
               <Twitter className="h-5 w-5" />
             </Link>
             <Link
-              href="https://instagram.com"
+              href="https://www.instagram.com/kuro.ejs"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -48,7 +48,7 @@ export default function Footer() {
               <Instagram className="h-5 w-5" />
             </Link>
             <Link
-              href="mailto:reenabibi5678@gmail.com"
+              href="mailto:ramizraza2313@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-5 w-5" />

@@ -55,7 +55,7 @@ export default function Home() {
                   <Twitter className="h-6 w-6" />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/ramiz.dezi"
+                  href="https://www.instagram.com/kuro.ejs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors hover-float"
