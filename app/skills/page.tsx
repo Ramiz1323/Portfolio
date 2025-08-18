@@ -7,8 +7,8 @@ export default function SkillsPage() {
       skills: [
         { name: "HTML", level: 95 },
         { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "React.js", level: 85 },
+        { name: "JavaScript", level: 80 },
+        { name: "React.js", level: 75 },
         { name: "Tailwind CSS", level: 90 },
       ],
     },
@@ -17,7 +17,7 @@ export default function SkillsPage() {
       skills: [
         { name: "Node.js", level: 80 },
         { name: "Express.js", level: 80 },
-        { name: "MongoDB", level: 75 },
+        { name: "MongoDB", level: 70 },
         { name: "PHP", level: 70 },
       ],
     },
@@ -36,7 +36,6 @@ export default function SkillsPage() {
         { name: "Git", level: 85 },
         { name: "WordPress", level: 80 },
         { name: "VS Code", level: 90 },
-        { name: "Figma", level: 70 },
       ],
     },
   ]
@@ -134,7 +133,7 @@ export default function SkillsPage() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold mb-3">4. Testing & Deployment</h3>
                   <p className="text-muted-foreground">
-                    Thoroughly testing the application and deploying it using modern CI/CD practices.
+                    Thoroughly testing the application and deploying it using modern  practices.
                   </p>
                 </CardContent>
               </Card>
