@@ -21,7 +21,7 @@ export default function ContactPage() {
             <Card className="bg-black/60 border-muted/20 gaming-border h-full hover-glow">
               <CardContent className="p-6">
                 <h2 className="text-2xl font-bold mb-6">Send Me a Message</h2>
-                <ContactForm email="reenabibi5678@gmail.com" />
+                <ContactForm email="ramizraza2313@gmail.com" />
               </CardContent>
             </Card>
           </div>
@@ -38,7 +38,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Email</h3>
-                      <p className="text-muted-foreground">reenabibi5678@gmail.com</p>
+                      <p className="text-muted-foreground">ramizraza2313@gmail.com</p>
                     </div>
                   </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+1 (123) 456-7890</p>
+                      <p className="text-muted-foreground">(+91) 6289338509</p>
                     </div>
                   </div>
 
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Location</h3>
-                      <p className="text-muted-foreground">New York, USA</p>
+                      <p className="text-muted-foreground">West Bengal, India</p>
                     </div>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                   <h3 className="font-medium mb-3">Follow Me</h3>
                   <div className="flex space-x-4">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Ramiz1323"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 bg-muted/10 rounded-full hover:bg-muted/20 transition-colors hover-float"
@@ -81,7 +81,7 @@ export default function ContactPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/sk-ramiz-raza"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 bg-muted/10 rounded-full hover:bg-muted/20 transition-colors hover-float"
@@ -91,7 +91,7 @@ export default function ContactPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://twitter.com"
+                      href="https://x.com/ramiz_dezi"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 bg-muted/10 rounded-full hover:bg-muted/20 transition-colors hover-float"
@@ -101,7 +101,7 @@ export default function ContactPage() {
                       </svg>
                     </a>
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/kuro.ejs"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 bg-muted/10 rounded-full hover:bg-muted/20 transition-colors hover-float"
