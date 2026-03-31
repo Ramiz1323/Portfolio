@@ -1,9 +1,15 @@
 import Image from "next/image"
 import Link from "next/link"
+import { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Github, ExternalLink } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "Projects | Sk Ramiz Raza",
+  description: "Explore a showcase of my web development projects, ranging from full-stack e-commerce platforms to media players and interactive dashboards.",
+}
 
 export default function ProjectsPage() {
   const projects = [

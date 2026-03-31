@@ -1,6 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card"
 import ContactForm from "@/components/contact-form"
 import { Mail, MapPin, Phone } from "lucide-react"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Contact | Sk Ramiz Raza",
+  description: "Get in touch with Sk Ramiz Raza for collaborations, project inquiries, or any other professional communication.",
+}
 
 export default function ContactPage() {
   return (

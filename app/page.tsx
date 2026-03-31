@@ -87,7 +87,7 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   <div
                     className="bg-black/60 border border-muted/20 rounded-lg overflow-hidden gaming-border hover-glow slide-up"
-                    style={{ animationDelay: `${500}s` }}
+                    style={{ animationDelay: "0.2s" }}
                   >
                     <div className="relative h-48">
                       <Image
@@ -117,38 +117,6 @@ export default function Home() {
                     </div>
                   </div>
 
-
-                  <div
-                    className="bg-black/60 border border-muted/20 rounded-lg overflow-hidden gaming-border hover-glow slide-up"
-                    style={{ animationDelay: `${500}s` }}
-                  >
-                    <div className="relative h-48">
-                      <Image
-                        src={`/images/z-play.png?height=200&width=400&text=Project`}
-                        alt={`Project `}
-                        fill
-                        className="object-cover z-[-1]"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2">Z-play</h3>
-                      <p className="text-muted-foreground mb-4">
-                      Z-Play is a fully functional media player with pre-added playlists.
-                      </p>
-                      <div className="flex justify-between">
-                        <Link href="/projects">
-                          <Button variant="link" className="p-0 h-auto gaming-gradient hover-float">
-                            View Details
-                          </Button>
-                        </Link>
-                        <Link href="https://github.com/Ramiz1323/mediaplayer" target="_blank" rel="noopener noreferrer">
-                          <Button variant="ghost" size="icon" className="h-8 w-8 hover-float">
-                            <Github className="h-5 w-5" />
-                          </Button>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
           </div>
 
           <div className="text-center mt-10 fade-in">

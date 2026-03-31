@@ -1,4 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Skills | Sk Ramiz Raza",
+  description: "Take a deep dive into my technical skill set, spanning front-end technologies like React and Tailwind CSS to back-end tools like Node.js and MongoDB.",
+}
 
 export default function SkillsPage() {
   const skillCategories = [
