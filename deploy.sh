@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-APP_PATH="/var/www/portfolio"
+APP_PATH=$(pwd)
 PM2_APP_NAME="portfolio"
 
 echo "🚀 Starting Deployment..."
