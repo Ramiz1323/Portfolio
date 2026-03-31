@@ -78,51 +78,31 @@ export default function Home() {
 
       {/* Featured Projects Section */}
       <div className="py-16 bg-gaming-dark/50">
-            <div className="container mx-auto px-4">
-              <div className="text-center mb-12 fade-in">
-                <h2 className="text-3xl font-bold mb-2 gaming-gradient">Featured Projects</h2>
-                <p className="text-muted-foreground">Some of my recent work</p>
-              </div>
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12 fade-in">
+            <h2 className="text-3xl font-bold mb-2 gaming-gradient">Featured Projects</h2>
+            <p className="text-muted-foreground">Stay tuned for my upcoming work</p>
+          </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  <div
-                    className="bg-black/60 border border-muted/20 rounded-lg overflow-hidden gaming-border hover-glow slide-up"
-                    style={{ animationDelay: "0.2s" }}
-                  >
-                    <div className="relative h-48">
-                      <Image
-                        src={`/images/z-play.png?height=200&width=400&text=Project`}
-                        alt={`Project `}
-                        fill
-                        className="object-cover z-[-1]"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold mb-2">Z-play</h3>
-                      <p className="text-muted-foreground mb-4">
-                      Z-Play is a fully functional media player with pre-added playlists.
-                      </p>
-                      <div className="flex justify-between">
-                        <Link href="/projects">
-                          <Button variant="link" className="p-0 h-auto gaming-gradient hover-float">
-                            View Details
-                          </Button>
-                        </Link>
-                        <Link href="https://github.com/Ramiz1323/mediaplayer" target="_blank" rel="noopener noreferrer">
-                          <Button variant="ghost" size="icon" className="h-8 w-8 hover-float">
-                            <Github className="h-5 w-5" />
-                          </Button>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
+          <div className="flex justify-center fade-in" style={{ animationDelay: "0.2s" }}>
+            <div className="w-full max-w-2xl bg-black/60 border border-muted/20 rounded-xl p-8 gaming-border text-center hover-glow transition-all duration-500">
+               <h3 className="text-xl font-bold mb-4 gaming-gradient">Currently in Development</h3>
+               <p className="text-muted-foreground mb-6">
+                 I'm preparing a selection of my best work to showcase here. 
+                 From full-stack applications to elegant front-end designs, 
+                 my latest projects are just around the corner!
+               </p>
+               <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted/10 rounded-full border border-muted/20">
+                 <div className="h-2 w-2 rounded-full bg-gaming-blue animate-pulse"></div>
+                 <span className="text-xs font-semibold tracking-wider text-muted-foreground uppercase">Under Construction</span>
+               </div>
+            </div>
           </div>
 
           <div className="text-center mt-10 fade-in">
             <Link href="/projects">
               <Button variant="outline" className="gaming-border hover-float">
-                View All Projects <ArrowRight className="ml-2 h-4 w-4" />
+                Learn More <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </div>
